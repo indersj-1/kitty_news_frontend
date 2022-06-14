@@ -16,12 +16,12 @@ http://localhost:3000/posts/1
   * *If data isn't available, add placeholder data*
 * Design are available [here](docs/design.png)
   * [Explanation](docs/design_explain.png)
-  1. Post header - generic information + vote button  --> Done
-  2. Lists - `user` who posted, `maker`, `commenters`, `voters` in this  order. Use exported in [docs](docs). --> Didn't get the value to process  `maker`, `commenters`, `voters`  so create a random (TBD)
+  1. Post header - generic information + vote button  *-->Done*
+  2. Lists - `user` who posted, `maker`, `commenters`, `voters` in this  order. Use exported in [docs](docs). *--> Didn't get the value to process  `maker`, `commenters`, `voters`  so create a random (TBD)*
   3. 
-  4. Comments section - inactive comment form, list comments. Comment actions should be stubbed for now. --> Done
-  5. About the launch - lists statistics about the given post --> Done
-  6. Latest launches. List up to 3 other launches. Use `postsAll` GraphQL field --> Done
+  4. Comments section - inactive comment form, list comments. Comment actions should be stubbed for now. *--> Done*
+  5. About the launch - lists statistics about the given post *--> Done*
+  6. Latest launches. List up to 3 other launches. Use `postsAll` GraphQL field *--> Done*
 * **It is up to you to handle the mobile version of the page**
 
 
@@ -29,11 +29,11 @@ http://localhost:3000/posts/1
 
 Add Vote/Unvote button in posts show page
 
-* Click by an unlogged user should redirect to the login page --> Done
-* Click by a logged in user should create a vote --> Done
-* Click on an already voted post should remove the vote --> Done
-* Visually mark which posts the user have voted on --> Was not clear with the requirement
-* Use GraphQL for fetching and updating the data --> Done
+* Click by an unlogged user should redirect to the login page --> *Done*
+* Click by a logged in user should create a vote --> *Done*
+* Click on an already voted post should remove the vote --> *Done*
+* Visually mark which posts the user have voted on --> *Was not clear with the requirement*
+* Use GraphQL for fetching and updating the data --> *Done*
 
 
 ### Task 3
@@ -43,9 +43,9 @@ Add Vote/Unvote button in posts show page
 This will be the task during the pair-programming session.
 
 ### TODO
-1) Need to have common paragraph content component
-2) Need to write the Test cases
-3) Can improve the loading mechanism as of now used a spinner component
+*1) Need to have common paragraph content component*
+*2) Need to write the Test cases*
+*3) Can improve the loading mechanism as of now used a spinner component*
 
 
 ## Criteria:
