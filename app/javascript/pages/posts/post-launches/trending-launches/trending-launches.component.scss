@@ -1,0 +1,25 @@
+@import "../../../../../assets/stylesheets/variable.scss";
+
+.trending-launches {
+  padding-top: 30px;
+  .treding-header {
+    display: flex;
+    justify-content: center;
+    line-height: 0px;
+    strong {
+      display: flex;
+      flex: 1;
+      column-gap: 10px;
+    }
+    strong:before,
+    strong:after {
+      content: "";
+      flex: 1 1;
+      border-bottom: 1px solid $border-color;
+      margin: auto;
+    }
+  }
+  .trending-launches-list {
+    margin-top: 40px;
+  }
+}

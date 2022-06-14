@@ -1,0 +1,21 @@
+@import "../../../../../assets/stylesheets/variable.scss";
+.about-launches-item-list {
+  display: flex;
+  flex: 1;
+  border-right: 1px solid $border-color;
+  .item {
+    .name {
+      color: $grey-color;
+      font-weight: 600;
+      text-align: center;
+    }
+    .value {
+      text-align: center;
+      margin: 5px 0px 0px 0px;
+      font-weight: bold;
+    }
+  }
+}
+:last-child {
+  border-right: none;
+}

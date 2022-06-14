@@ -1,0 +1,33 @@
+@import "../../../../../assets/stylesheets/variable.scss";
+
+.trending-launches-list {
+  display: flex;
+  justify-content: space-around;
+  column-gap: 20px;
+  .trending-launches-item-list {
+    border-right: 1px solid $border-color;
+    padding-right: 40px;
+    .item-description {
+      line-height: 20px;
+      color: $grey-color;
+      font-weight: $font-weight-600;
+    }
+    .item-title {
+      font-weight: $font-weight-bold;
+    }
+    .item-details {
+      p {
+        color: $grey-color;
+      }
+      display: flex;
+      column-gap: 12px;
+      .upvotes::before {
+        content: " ▲ ";
+      }
+    }
+  }
+  :last-child {
+    border-right: none;
+    padding-right: 0px;
+  }
+}

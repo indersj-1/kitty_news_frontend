@@ -1,0 +1,18 @@
+@import "../../../../../assets/stylesheets/variable.scss";
+
+.comment-form {
+  border-bottom: 1px solid $border-color;
+  border-top: 1px solid $border-color;
+  padding: 10px 0px;
+  display: flex;
+  .input-text {
+    flex: 1;
+    border: none;
+  }
+  .disabled {
+    pointer-events: none;
+  }
+  input:focus {
+    outline: none;
+  }
+}

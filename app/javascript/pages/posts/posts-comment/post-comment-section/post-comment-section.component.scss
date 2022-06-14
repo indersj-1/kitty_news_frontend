@@ -1,0 +1,40 @@
+@import "../../../../../assets/stylesheets/variable.scss";
+
+.comment-section {
+  margin: 5px 0;
+  .comment-header {
+    display: flex;
+    column-gap: 6px;
+    align-items: center;
+    justify-content: flex-start;
+    .name {
+      margin-bottom: 16px;
+      font-weight: $font-weight-bold;
+    }
+    .userName {
+      margin-bottom: 16px;
+      color: $user-name-color;
+    }
+  }
+
+  .comment-description {
+    margin: 0 0 0 45px;
+    color: $user-name-color;
+    line-height: 25px;
+  }
+  .comment-action {
+    display: flex;
+    column-gap: 18px;
+    margin-left: 45px;
+    color: $grey-color;
+    margin-top: 10px;
+    .upvote,
+    .reply,
+    .share {
+      cursor: pointer;
+    }
+  }
+  .bold {
+    font-weight: $font-weight-600;
+  }
+}

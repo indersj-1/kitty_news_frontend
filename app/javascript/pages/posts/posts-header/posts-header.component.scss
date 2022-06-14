@@ -1,0 +1,45 @@
+@import "../../../../assets/stylesheets/variable.scss";
+
+.post-header {
+  .post-title {
+    margin-top: 15px;
+  }
+  .post-logo {
+    img {
+      border-radius: 10%;
+    }
+  }
+  .post-content {
+    display: flex;
+    .content-title {
+      font-size: 20px;
+      color: $grey-color;
+
+      flex: 2;
+    }
+
+    .post-button {
+      display: flex;
+      height: 50px;
+      flex: 1;
+      .visit-btn {
+        width: 65px;
+        font-weight: bolder;
+      }
+      .vote-btn {
+        background-color: $organge-button;
+        color: $white-button;
+        width: 150px;
+      }
+      .vote-btn::before {
+        content: " ▲ ";
+      }
+    }
+  }
+  .post-description {
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
